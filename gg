@@ -1,6 +1,13 @@
-cmake_minimum_required(VERSION 3.30)
-project(untitled1)
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int cid;
+    int cr;
+    printf("Enter the courseId and credit:");
+    scanf("%d%f",&cid,&cr);
+    printf("CourseId:%d",cid);
+    printf("Credit:%f",cr);
 
-set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled1 main.cpp)
+}
